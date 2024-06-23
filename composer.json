@@ -1,0 +1,14 @@
+{
+  "name": "ashik/laravel-decimal-to-word",
+  "description": "A package to convert decimals to words in BDT format",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Ashik\\DecimalToWord\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-intl": "*"
+  }
+}
